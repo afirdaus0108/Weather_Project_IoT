@@ -1,8 +1,8 @@
 name: collect-weather
 on:
   schedule:
-    - cron: "5 * * * *"   # every hour at minute 5 (UTC)
-  workflow_dispatch:       # lets you run it manually from the Actions tab
+    - cron: "5 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
